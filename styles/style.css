@@ -78,7 +78,7 @@ ________________________ */
     font-weight: 600;
     font-size: 18px;
     width: 180px;
-    height: 64px;
+    height: 60px;
     /* line-height: 23px; */
     /* text-align: center; */
     background-color: rgb(237, 187, 95);
@@ -205,8 +205,6 @@ Experience section starts
     width: 586px;
     height: 75px;
     left: 240px;
-    /* top: 2713px; */
-
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
@@ -244,6 +242,10 @@ border-radius: 8px;
 /* ----------------------
 Experience section ends
 ------------------------- */
+
+/* ----------------------
+Facts section starts
+------------------------- */
 .facts {
     margin-left: 230px;
 }
@@ -263,7 +265,7 @@ Experience section ends
 }
 
 .fact-details-desc {
-    margin-top: 30pxpx;
+    margin-top: 30px;
     width: 542px;
     height: 52px;
     font-weight: 400;
@@ -317,53 +319,82 @@ Experience section ends
     text-align: center;
     color: #727272;
 }
+/* ----------------------
+Facts section ends
+------------------------- */
+
+
+/* -----------------------
+  Sponser section starts
+  ------------------------- */
 
 .sponsers {
-    width: 1682px;
-    margin: 70px 100px ;
+    width: 1600px;
+    margin: 90px 90px 90px 110px;
 }
 
-.sponser-desc h3 {
-    width: 442px;
-    margin: 24px 690px 50px;
+.sponser-details .section-title h3{
+    margin-top: 50px ;
+    margin-bottom: 0px;
+}
+
+.sponser-desc {
+    margin-top: 12px;
+    align-items: center;
     font-weight: 400;
     font-size: 16px;
     /* line-height: 26px; */
     text-align: center;
     color: #727272;
-    /* /Width: 442px; */
     Height: 52px;
+
+}
+.text-block{
+    width: 542px;
+    margin: 10px 570px;
 }
 
 .sponsers-logo {
-    margin-top: 30px;
+    margin-top: 50px; 
+    margin-left: 35px;
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
-    grid-column-gap: 30px;
+    grid-column-gap: 20px;
+    mix-blend-mode: luminosity;
+
+}
+/* ----------------------
+Sponser section ends
+------------------------- */
+/* main ends */
+
+
+/* Footer starts */
+footer {
+    /* margin: 50px 100px; */
+    /* padding: 38px 410px; */
+    margin-left: 190px;
+    margin-bottom: 100px;
+    width: 1600px;
+    height: 85px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    color: #424242
+}
+
+.footer-text-block{
+    margin-top: 76px; 
+    padding-top: 38px;
+    padding-bottom: 38px;
+    width: 1600px;
+    /* height: 23px; */
     
 }
-
-footer{
-    margin: 50px 100px;
-    /* padding: 38px 410px; */
-    width: 1440px;
-height: 100px;
-left: 240px;
-top: 4444px;
-
-background: #FFF4E7;
-border-radius: 8px;
-}
-.ending h4{
-    /* margin: 38px 410px; */
-    width: 620px;
-    height: 23px;
-    font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-/* justify-content: center; */
-align-items: center;
-color: #424242
-}
+/* Footer ends */
