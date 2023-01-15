@@ -145,6 +145,12 @@ main {
     line-height: 53px;
     text-align: left;
 }
+.text-1{
+    color: #727272;
+}
+.text-2{
+    color: #FF900E;
+}
 
 .feature-details .section-desc p {
     margin-top: 24px;
